@@ -47,7 +47,7 @@ rtlsdr.RtlSdrクラスをインスタンス化
 ```
 * device_index: PCがUSBドングルに割り当てた番号（だいたい0か1）
 
-###インスタンス変数の設定
+### インスタンス変数の設定
 ```python
   sdr.sampling_rate = 20.48*10**6
   sdr.center_freq = 400*10**6
