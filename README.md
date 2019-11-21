@@ -60,4 +60,5 @@ rtlsdr.RtlSdrクラスをインスタンス化
 * observationTime: 観測時間
 * nSamples: キャプチャするサンプル数
 * read_samples(): 信号をキャプチャするメソッド
+
 ここまでで，変数signalWaveにnSamplesで定義されたサンプル数の信号波形が格納される．
