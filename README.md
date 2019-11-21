@@ -32,6 +32,14 @@ Pythonで実装した，RTL-SDRを用いてRF信号波形をキャプチャす�
 * このリポジトリでは，RF信号をキャプチャするためのチュートリアル的なサンプルコードを公開しているが，細かな使い方はドキュメンテーションを参照してほしい．
 
 ## pyrtlsdrライブラリを利用したRF信号のキャプチャ
+### ライブラリのインポート
+```python
+  import numpy as np
+  import rtlsdr
+```
+* rtlsdr: RTL-SDRを扱えるようにするライブラリ
+* numpy: あると便利
+
 ### インスタンス化
 rtlsdr.RtlSdrクラスをインスタンス化
 ```python
